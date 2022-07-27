@@ -50,14 +50,14 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .lightTheme {
-        --primaryColor: #30BFBF;
+        --primaryColor: #B4D6C1;
         --headingsColor: #4D4D4D;
         --baseTextColor:#6E7581;
         --dividerColor: #E2E2E2;
         --markBackgroundColor: #FDFFB4;
         --markTextColor: #4D4D4D;
         --inlineCodeTextColor: #4D4D4D;
-        --inlineCodeBackgroundColor: #8DD8CC;
+        --inlineCodeBackgroundColor: #8DC3A7;
         --backgroundColor: #FFFFFF;
         --backgroundTransparentColor: rgba(255, 255, 255, 0);
         --backgroundColorAlt: #FFFFFF;
@@ -65,11 +65,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .darkTheme {
-        --primaryColor: #30BFBF;
+        --primaryColor: #6BAF92;
         --headingsColor: #EEEEEE;
         --baseTextColor: #AAAAAA;
         --dividerColor: #242A31;
-        --markBackgroundColor: #8DD8CC;
+        --markBackgroundColor: #B4D6C1;
         --markTextColor: #181B22;
         --inlineCodeTextColor: #FFFFFF;
         --inlineCodeBackgroundColor: #293B4A;
