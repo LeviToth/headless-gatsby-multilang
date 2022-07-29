@@ -1,9 +1,11 @@
 export const Logo = () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="30"
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
-      viewBox="0 0 32 32"
+      viewBox="0 0 30 30"
     >
       <rect
         width="6"
