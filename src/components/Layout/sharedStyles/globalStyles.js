@@ -54,7 +54,7 @@ export const GlobalStyle = createGlobalStyle`
         --headingsColor: #4D4D4D;
         --baseTextColor:#6E7581;
         --dividerColor: #E2E2E2;
-        --markBackgroundColor: #FDFFB4;
+        --markBackgroundColor: #B4D6C1;
         --markTextColor: #4D4D4D;
         --inlineCodeTextColor: #4D4D4D;
         --inlineCodeBackgroundColor: #8DC3A7;
