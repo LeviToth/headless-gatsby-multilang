@@ -65,7 +65,7 @@ const ArticleTemplate = ({
               renderNodeRule(isCode, ({ node: { language, code }, key }) => (
                 <div style={{ position: 'relative' }} key={key}>
                   <div id="code_tip">{language}</div>
-                  <SyntaxHighlighter language={language} style={atomDark}>
+                  <SyntaxHighlighter language={language} style={github}>
                     {code}
                   </SyntaxHighlighter>
                 </div>
