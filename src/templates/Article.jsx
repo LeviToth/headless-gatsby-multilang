@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { StructuredText, renderNodeRule } from 'react-datocms';
 import { isCode } from 'datocms-structured-text-utils';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { github } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import { PageWrapper } from '../components/Layout/PageWrapper';
 import { ArticleHeader } from '../components/Layout/Blog/ArticleHeader';
