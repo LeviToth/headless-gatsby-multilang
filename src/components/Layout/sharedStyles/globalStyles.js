@@ -61,7 +61,7 @@ export const GlobalStyle = createGlobalStyle`
         --backgroundColor: #FFFFFF;
         --backgroundTransparentColor: rgba(255, 255, 255, 0);
         --backgroundColorAlt: #FFFFFF;
-        --codeBlockBackgroundColor: #181B22;
+        --codeBlockBackgroundColor: #FFFFFF;
     }
 
     .darkTheme {
@@ -76,7 +76,7 @@ export const GlobalStyle = createGlobalStyle`
         --backgroundColor: #181B22;
         --backgroundTransparentColor: rgba(24, 27, 34, 0);
         --backgroundColorAlt: #1D2028;
-        --codeBlockBackgroundColor: #181B22;
+        --codeBlockBackgroundColor: #FFFFFF;
     }
 
     body {
