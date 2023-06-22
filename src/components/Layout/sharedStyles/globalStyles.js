@@ -52,12 +52,12 @@ export const GlobalStyle = createGlobalStyle`
     .lightTheme {
         --primaryColor: #207567;
         --headingsColor: #4D4D4D;
-        --baseTextColor:#6E7581;
+        --baseTextColor: #6E7581;
         --dividerColor: #E2E2E2;
         --markBackgroundColor: #B4D6C1;
         --markTextColor: #4D4D4D;
-        --inlineCodeTextColor: #4D4D4D;
-        --inlineCodeBackgroundColor: #8DC3A7;
+        --inlineCodeTextColor: #6E7581;
+        --inlineCodeBackgroundColor: #F5F5F5;
         --backgroundColor: #FFFFFF;
         --backgroundTransparentColor: rgba(255, 255, 255, 0);
         --backgroundColorAlt: #FFFFFF;
@@ -76,7 +76,7 @@ export const GlobalStyle = createGlobalStyle`
         --backgroundColor: #181B22;
         --backgroundTransparentColor: rgba(24, 27, 34, 0);
         --backgroundColorAlt: #1D2028;
-        --codeBlockBackgroundColor: #FFFFFF;
+        --codeBlockBackgroundColor: #181B22;
     }
 
     body {
