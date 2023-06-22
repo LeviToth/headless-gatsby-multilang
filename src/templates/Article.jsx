@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { StructuredText, renderNodeRule } from 'react-datocms';
 import { isCode } from 'datocms-structured-text-utils';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vs } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import { PageWrapper } from '../components/Layout/PageWrapper';
 import { ArticleHeader } from '../components/Layout/Blog/ArticleHeader';
@@ -65,7 +65,7 @@ const ArticleTemplate = ({
               renderNodeRule(isCode, ({ node: { language, code }, key }) => (
                 <div style={{ position: 'relative' }} key={key}>
                   <div id="code_tip">{language}</div>
-                  <SyntaxHighlighter language={language} style={vs}>
+                  <SyntaxHighlighter language={language} style={vscDarkPlus}>
                     {code}
                   </SyntaxHighlighter>
                 </div>
